@@ -26,14 +26,14 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-        "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-        "start":"node dist/server.js",
-        "build":"tsc"
-
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^17.4.0",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
