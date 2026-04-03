@@ -1,0 +1,45 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "NodeJs",
+    "ExpressJs",
+    "TypeScript",
+    "Prisma",
+    "Psql",
+    "MongoDB",
+    "OAuth2.0",
+    "Google",
+    "Login"
+  ],
+  "homepage": "https://github.com/developer-hemang/NodeJs-ReactJs-Production-Auth-System#readme",
+  "bugs": {
+    "url": "https://github.com/developer-hemang/NodeJs-ReactJs-Production-Auth-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-hemang/NodeJs-ReactJs-Production-Auth-System.git"
+  },
+  "license": "ISC",
+  "author": "Hemang Dave",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+        "start":"node dist/server.js",
+        "build":"tsc"
+
+  },
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.2"
+  }
+}
